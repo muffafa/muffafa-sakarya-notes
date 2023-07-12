@@ -28,6 +28,8 @@ Yemekhane 11.30 - 15.30
 - SOFTWARE 1107
 - TOC KONFERANS SALONU SALON 4
 
+![Ders Programı](syllabus.jpeg)
+
 BİÇİMSEL DİLLER VE SOYUT MAKİNELER(T+U Saat: 3+0) Türkçe - Zorunlu <br>
 A Grubu <br>
 Prof.Dr. NEJAT YUMUŞAK Derslik 1107 Perşembe 09:00  15:00 <br>
