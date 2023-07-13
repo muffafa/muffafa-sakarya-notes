@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="">
+    <h1 class="display-4">Welcome</h1> 
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core deneme</a>.</p>
+    <table width="100" height="200" border="1">
+        <tr>
+            <td>Saaat</td>
+            <td width="10" border="1"></td>
+            <td>Dakika</td>
+        </tr>
+        <tr>
+            <td>@DateTime.Now.ToString("HH")</td>
+            <td width="10" border="1"></td>
+            <td>@DateTime.Now.ToString("mm")</td>
+
+        </tr>
+        <tr>
+            <td>@DateTime.Now.Hour</td>
+            <td width="10" border="1"></td>
+            <td>@DateTime.Now.Minute</td>
+
+        </tr>
+    </table>
+    <div>
+        @{
+            for (var i = 1; i < 11; i++)
+            {
+                <div>@i</div>
+            }
+
+
+}
+    </div>
+    <div>
+        @{
+            string[] ogrenciler = { "Ali", "Veli" };
+            foreach(string ogrenci in ogrenciler)
+            {
+                <h1>@ogrenci</h1>
+}
+            for(int i = 0; i < ogrenciler.Length; i++)
+{
+                <h2>@ogrenciler[i]</h2>
+}
+
+
+}
+
+    </div>
+    <div>
+        @{
+            string haftaninGünü = "";
+
+            switch (DateTime.Now.DayOfWeek)
+            {
+                case DayOfWeek.Sunday:
+                    haftaninGünü = "Pazar";
+                    break;
+                case DayOfWeek.Monday:
+                    haftaninGünü = "Pazartesi";
+                    break;
+                case DayOfWeek.Tuesday:
+                    haftaninGünü = "Salı";
+                    break;
+                case DayOfWeek.Wednesday:
+                    haftaninGünü = "Çarşamba";
+                    break;
+                case DayOfWeek.Thursday:
+                    haftaninGünü = "Perşembe";
+                    break;
+                case DayOfWeek.Friday:
+                    haftaninGünü = "Cuma";
+                    break;
+                default:
+                    haftaninGünü = "Cumartesi";
+                    break;
+            }
+                <div>Haftanin günü: @haftaninGünü</div>
+            }
+    </div>
+</div>
+
