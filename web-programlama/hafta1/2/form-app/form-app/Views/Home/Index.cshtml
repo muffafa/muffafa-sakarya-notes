@@ -3,7 +3,7 @@
 }
 
 <div class="">
-    <h1 class="display-4">Welcome</h1> 
+    <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core deneme</a>.</p>
     <table width="100" height="200" border="1">
         <tr>
@@ -32,27 +32,29 @@
             }
 
 
-}
+        }
     </div>
     <div>
         @{
             string[] ogrenciler = { "Ali", "Veli" };
-            foreach(string ogrenci in ogrenciler)
+            foreach (string ogrenci in ogrenciler)
             {
                 <h1>@ogrenci</h1>
-}
-            for(int i = 0; i < ogrenciler.Length; i++)
-{
+            }
+            for (int i = 0; i < ogrenciler.Length; i++)
+            {
                 <h2>@ogrenciler[i]</h2>
-}
+            }
 
 
-}
+        }
 
     </div>
     <div>
         @{
             string haftaninGünü = "";
+
+            int gün = Convert.ToInt32(DateTime.Now.DayOfWeek);
 
             switch (DateTime.Now.DayOfWeek)
             {
@@ -78,8 +80,28 @@
                     haftaninGünü = "Cumartesi";
                     break;
             }
-                <div>Haftanin günü: @haftaninGünü</div>
-            }
+            <div>Haftanin günü: @haftaninGünü</div>
+        }
     </div>
+    
+    <form action="Home/OgrKaydetGet" method="post" class="my-5">
+        <div class="form-group">
+            <label for="ogrAd">Öğrenci Ad</label>
+            <input type="text" class="form-control" id="ogrAd" name="ogrAd">
+        </div>
+
+        <div class="form-group">
+            <label for="ogrSoyad">Öğrenci Soyad</label>
+            <input type="text" class="form-control" id="ogrSoyad" name="ogrSoyad">
+        </div>
+
+        <div class="form-group">
+            <label for="ogrNo">Öğrenci No</label>
+            <input type="text" class="form-control" id="ogrNo" name="ogrNo">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Gonder</button>
+    </form>
+
 </div>
 

@@ -1,4 +1,33 @@
 ﻿<Properties StartupConfiguration="{5500C36D-4737-444E-868F-B4DEF022CF66}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="form-app/Models/Ogrenci.cs">
+    <Files>
+      <File FileName="form-app/Controllers/HomeController.cs" Line="32" Column="128" />
+      <File FileName="form-app/Views/Home/Index.cshtml" Line="108" Column="1" />
+      <File FileName="form-app/Models/Ogrenci.cs" Line="9" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="form-app">
+            <Node name="form-app">
+              <Node name="Models" expanded="True">
+                <Node name="Ogrenci.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.form-app FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.form-app PreferredExecutionTarget="/Applications/Opera.app" />
 </Properties>

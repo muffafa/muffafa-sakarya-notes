@@ -23,6 +23,15 @@ public class HomeController : Controller
         return View();
     }
 
+    public string OgrKaydet(string ogrAd, string ogrSoyad, string ogrNo) {
+        return ogrAd + ogrSoyad + ogrNo;
+    }
+
+    public string OgrKaydetGet()
+    {
+        return HttpContext.Request.Query["ogrAd"] + HttpContext.Request.Query["ogrSoyad"] + HttpContext.Request.Query["ogrNo"];
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
