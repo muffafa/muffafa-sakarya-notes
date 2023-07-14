@@ -1,0 +1,18 @@
+﻿@model List<H3WebYaz.Models.Ogrenci>
+
+    <table class="table table-striped">
+        <tr>
+            <th>Öğrenci Ad</th>
+            <th>Öğrenci Soyad</th>
+            <th>Öğrenci No</th>
+        </tr>
+        @foreach (var ogr in Model)
+    {
+            <tr>
+                <td>@ogr.OgrAd</td>
+                <td>@ogr.OgrSoyad</td>
+                <td>@ogr.OgrNo</td>
+            </tr>
+        
+    }
+    </table>
