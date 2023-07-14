@@ -14,19 +14,19 @@
 - LBA (Lineer Bounded Automata)
 - Turing Machine
 
-![Grammer Types - Automata](../img/grammer-types-automata.png)
+![Grammer Types - Automata](./img/grammer-types-automata.png)
 
 Bir poblem için Turing Makinesi tanımlanabiliyorsa o problem çözülebilirdir.
 
 Von Neumann yapısı ve darboğazı (bottleneck)
-![Von Neumann Architecture](../img/von-neumann-basic_structure.png)
+![Von Neumann Architecture](./img/von-neumann-basic_structure.png)
 
 Fa - PDA - LBA VE TM kıyaslaması
 
-![Comparassions - Automata](../img/fa-pda-lba-tm.png)
+![Comparassions - Automata](./img/fa-pda-lba-tm.png)
 
 [Derleyicinin Fazları](https://www.geeksforgeeks.org/phases-of-a-compiler/)
 
-![Phases of a compiler](../img/compilerDesign.jpg)
+![Phases of a compiler](./img/compilerDesign.jpg)
 
 Derleyicinin frontend (ön cepesi)
